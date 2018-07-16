@@ -63,4 +63,3 @@ $ yarn start:minishift
 $ open https://$(oc get routes syndesis --template "{{.spec.host}}")
 ```
 
-

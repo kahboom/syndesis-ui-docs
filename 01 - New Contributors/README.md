@@ -46,6 +46,16 @@ If you aren't familiar with Red Hat's development model, directly from [the webs
 
 ## Application Lifecycle Management
 
+In the simplest form, it goes something like this, and not always in perfect order:
+
+1. Sprint planning meeting (see below) to discuss priority feature items.
+2. Work with UXD to decide if anything can be worked on while designs are underway.
+3. Develop and test features.
+4. Upon receiving designs, adjust the UI to match any design inconsistencies or improvements.
+5. Demo!
+
+Whatever was not completed on time needs to be moved to the following sprint, depending on the upcoming feature requests and their level of urgency.
+
 ### Sprints
 We divide our work up into 3 week periods called **sprints**. We try to follow the Agile Methodology, but a bit more fluidly.
 

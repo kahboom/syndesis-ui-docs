@@ -1,35 +1,5 @@
 # Contributing to the UI
 
-## Minishift Instance
-
-**NOTE: The Minishift section is a work in progress (WIP) and may not be up-to-date.**
-
-You'll first need to get your Minishift instance set up to contribute to Syndesis and have it running locally with all the proper resources.
-
-### Initial setup
-
-```
-$ brew install docker-machine-driver-xhyve
-$ brew cask install minishift
-$ git pull https://github.com/syndesisio/syndesis.git # or own fork
-$ syndesis/tools/bin/syndesis --full-reset # installs minishift, a VM containing OpenShift
-$ minishift config set memory 4096
-$ minishift config set cpus 4
-```
-
-### Get the Latest Changes
-
-```
-$ git checkout master
-$ git pull upstream master
-$ git checkout <branch>
-$ git rebase master
-```
-
-### First Time Setup
-
-`$ syndesis minishift --full-reset`
-
 ### Day-to-Day
 If you DON'T want to delete your Minishift instance (you want to use an existing one).
 

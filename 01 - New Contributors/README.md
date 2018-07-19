@@ -29,6 +29,14 @@ Keep in mind that Connectors are not labeled as such in the UI; they just look l
 - Fuse Architect & Manager: Hiram Chirino
 - Product Manager: Keith Babo
 
+
+### Where is Everyone?
+
+IRC channels (freenode.net): #syndesis and #syndesis-ui
+
+Relevant internal mailing lists to subscribe to:
+- frontend-superheroes
+
 ### Upstream vs Product
 
 If you aren't familiar with Red Hat's development model, directly from [the website](https://www.redhat.com/en/about/development-model):
@@ -80,3 +88,6 @@ Fuse releases do not coincide 100% with our sprints, but we try our best to alig
 Feature owners are in charge of ensuring that a prioritized feature for that sprint is carried through from beginning to end. This includes coordinating with other teams, like UXD, QE, their respective manager.
 
 This doesn't mean the others in the team cannot jump in and help a feature owner to complete a task. In fact, that is often the only way a feature owner can complete a feature--with the help of teammates. It is important that we try to make time to do code reviews, help debug issues, etc. even if it isn't directly related to what we are working on. And we always need to remember what the priority of each sprint is.
+
+
+### Next Step: [Environment Setup](01-env-setup.md)
